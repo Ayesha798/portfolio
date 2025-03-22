@@ -1,0 +1,288 @@
+*{
+    margin:0%;
+    box-sizing:border-box;
+    /* border:1px solid red; */
+}
+.navbar-brand{
+    width:10%;
+}
+.navbar{
+    background-color:violet;
+    height:12%;
+}
+.nav-link{
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+}
+.fa-bars{
+    color:white;
+    font-weight:bold;
+}
+#about{
+    margin-top:10%;
+    display:flex;
+    background-color: violet;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:15%;
+    padding:5%;
+}
+.img{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    box-shadow:0px 5px 15px black;
+    object-fit:cover;
+}
+.p , h3{
+    margin-top:5%;
+    font-weight:bold;
+    margin-left:5%;
+}
+
+.img:hover{
+    animation:pulse 1.5s infinite;
+}
+
+.img{
+    transition: transform 0.4s ease-in-out;
+}
+.img:hover{
+    transform:scale(1.2);
+}
+#section{
+    display:flex;
+    background-color: violet;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:10%;
+    padding:5%;
+}
+.images{
+    transition: transform 0.4s ease-in-out;
+}
+.images:hover{
+    transform:scale(1.2);
+}
+.one{
+    margin-left:1%;
+}
+hr{
+    color:black;
+    width:50%;
+    margin-left:30%;
+}
+.pro{
+    display:flex;
+    margin-top:1%;
+    margin-left:50%;
+    font-weight:bold;
+}
+.pro1{
+    width:50%;
+    margin-top:1%;
+    margin-left:20%;
+    border-radius:20px;
+    border-color: black;
+    background-color:violet;
+    border:none;
+
+}
+.section3{
+    border:2px solid black;
+    width:70%;
+    margin-left:15%;
+   margin-bottom:10%;
+  
+}
+.input1{
+    width:60%;
+}
+.input2{
+    width:70%;
+}
+.input3{
+    width:70%;
+}
+.input4{
+    margin-bottom:2%;
+}
+/* certification */
+#certify{
+    border:2px solid black;
+    margin-left:15%;
+    margin-right:15%;
+}
+#certify h3{
+   margin-left:35%;
+}
+#certify p{
+   text-align:center;
+   margin-top:2%;
+}
+#certify a{
+    text-decoration:none;
+    color:black;
+}
+.logo{
+    display:flex;
+    
+}
+.logo1{
+    width:8%;
+    height:8%;
+    margin-top:2%;
+    margin-left:1%;
+}
+.form-control{
+    margin-left:0.5%;
+}
+#contact{
+    margin-top:8%;
+    margin-left:3%;
+}
+.fa-github, .fa-envelope{
+    color:black;
+    transition: transform 0.4s ease-in-out;
+}
+.fa-linkedin{
+    color:blue;
+    transition: transform 0.4s ease-in-out;
+}
+.fa-linkedin:hover{
+    transform:scale(1.2);
+}
+.fa-github:hover, .fa-envelope:hover{
+    transform:scale(1.2);
+}
+.fa-location-dot{
+    color:black;
+    transition: transform 0.4s ease-in-out;
+}
+.fa-location-dot:hover{
+    transform:scale(1.2);
+}
+.btn {
+    color:white;
+    font-weight:bold;
+}
+.btn a{
+    text-decoration: none;
+    color:white;
+}
+#footer{
+    background-color: violet;
+    padding:3%;
+    text-align:center;
+    font-weight:bold;
+    margin-top:5%;
+}
+.contact{
+    border-radius:5px;
+    width:25%;
+    padding:1%;
+    margin-top:2%;
+}
+.contactme{
+   margin-left:45%;
+}
+.contact1{
+    margin-left:35%;
+}
+#textarea{
+    margin-top:2%;
+    width: 50%;
+    padding:3%;
+    border-radius: 5px;
+}
+.button{
+    margin-left:50%;
+    margin-top:2%;
+}
+.type{
+    border-radius:5px;
+    background-color: violet;
+    border:none;
+    padding:1%;
+    width:10%;
+    color:white;
+    font-weight: bold;  
+    transition: transform 0.4s ease-in-out;
+}
+.type:hover{
+    transform:scale(1.2);
+}
+.connect h4{
+    margin-left:48%;
+    margin-top:5%;
+}
+.anchor{
+    margin-left:50%;
+    font-size:150%;
+    
+}
+  /* certifications responsiveness */
+  @media (max-width: 600px) {
+    .logo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo1 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .images {
+        margin-bottom: 10px;
+    }
+}
+    /* Media Queries for responsiveness */
+    @media (max-width: 600px) {
+        .contact {
+            flex: 1 1 100%;
+        }
+    }
+.map{
+    display:flex;
+}
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    display:flex;
+}
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-bottom:3%;
+}
+.card h3 {
+    margin-top: 0;
+}
+.card p {
+    color:black;
+}
+#projects{
+    border:2px solid black;
+    margin-top:10%;
+    margin-left:15%;
+    margin-right:15%;
+}
+#projects h2{
+        margin-left:40%;
+        margin-top:2%;
+}
+.probtn{
+    color:white !important;
+    font-weight:bold;
+}
